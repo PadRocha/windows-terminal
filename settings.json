@@ -1,0 +1,624 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "ctrl+s"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "left"
+            },
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "ctrl+alt+h"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "down"
+            },
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "ctrl+alt+j"
+        },
+        {
+            "command": "toggleFocusMode",
+            "id": "Terminal.ToggleFocusMode",
+            "keys": "f11",
+            "name": "focus mode"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "ctrl+alt+k"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 5
+            },
+            "id": "Terminal.SwitchToTab5",
+            "keys": "ctrl+6",
+            "name": "Cambiar a pesta\u00f1a, index:5"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "right"
+            },
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "ctrl+alt+l"
+        },
+        {
+            "command": "togglePaneZoom",
+            "id": "Terminal.TogglePaneZoom",
+            "keys": "alt+z",
+            "name": "Ampliar un panel"
+        },
+        {
+            "command": "toggleBroadcastInput",
+            "id": "Terminal.ToggleBroadcastInput",
+            "keys": "ctrl+b",
+            "name": "Alternar Entrada de Difusi\u00f3n"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "profile": "Debian"
+            },
+            "id": "User.newTab.614178F6",
+            "keys": "ctrl+shift+t",
+            "name": "Abrir nueva pesta\u00f1a con Debian"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "cd D:\\\r"
+            },
+            "id": "User.sendInput.4BD47E91",
+            "keys": "shift+r",
+            "name": "navigate to parent root D:\\"
+        },
+        {
+            "command": "closePane",
+            "id": "Terminal.closePane",
+            "keys": "ctrl+w",
+            "name": "Cerrar panel"
+        },
+        {
+            "command": "tabSearch",
+            "id": "Terminal.tabSearch",
+            "keys": "alt+t",
+            "name": "Buscar pesta\u00f1as"
+        },
+        {
+            "command": "duplicateTab",
+            "id": "Terminal.duplicateTab",
+            "keys": "ctrl+d"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "id": "User.moveFocus.6CD791B",
+            "keys": "alt+shift+k",
+            "name": "Mover Foco Arriba"
+        },
+        {
+            "command": "find",
+            "id": "Terminal.FindText",
+            "keys": "ctrl+f",
+            "name": "Buscar"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "id": "Terminal.ResizePaneLeft",
+            "keys": "ctrl+shift+h",
+            "name": "Cambiar el tama\u00f1o del panel izquierda"
+        },
+        {
+            "command": 
+            {
+                "action": "newWindow"
+            },
+            "id": "Terminal.OpenNewWindow",
+            "keys": "ctrl+n"
+        },
+        {
+            "command": "openTabRenamer",
+            "id": "Terminal.openTabRenamer",
+            "keys": "ctrl+r",
+            "name": "Cambiar el t\u00edtulo de la pesta\u00f1a"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "id": "Terminal.ResizePaneDown",
+            "keys": "ctrl+shift+j",
+            "name": "Cambiar el tama\u00f1o del panel abajo"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "clear\r"
+            },
+            "id": "User.sendInput.7726603B",
+            "keys": "shift+k",
+            "name": "clear terminal"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 3
+            },
+            "id": "Terminal.SwitchToTab3",
+            "keys": "ctrl+4",
+            "name": "Cambiar a pesta\u00f1a, index:3"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 2
+            },
+            "id": "Terminal.SwitchToTab2",
+            "keys": "ctrl+3",
+            "name": "Cambiar a pesta\u00f1a, index:2"
+        },
+        {
+            "command": 
+            {
+                "action": "prevTab"
+            },
+            "id": "Terminal.PrevTab",
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "id": "Terminal.SwitchToTab4",
+            "keys": "ctrl+5",
+            "name": "Cambiar a pesta\u00f1a, index:4"
+        },
+        {
+            "command": "scrollToBottom",
+            "id": "Terminal.ScrollToBottom",
+            "keys": "ctrl+end",
+            "name": "Desplazarse a la parte inferior del historial"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 0
+            },
+            "id": "Terminal.SwitchToTab0",
+            "keys": "ctrl+1",
+            "name": "Cambiar a pesta\u00f1a, index:0"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "id": "Terminal.SplitPaneRight",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 1
+            },
+            "id": "Terminal.SwitchToTab1",
+            "keys": "ctrl+2",
+            "name": "Cambiar a pesta\u00f1a, index:1"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 6
+            },
+            "id": "Terminal.SwitchToTab6",
+            "keys": "ctrl+7",
+            "name": "Cambiar a pesta\u00f1a, index:6"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.87C324ED",
+            "keys": "alt+shift+l",
+            "name": "Mover Foco Derecha"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 7
+            },
+            "id": "Terminal.SwitchToTab7",
+            "keys": "ctrl+8",
+            "name": "Cambiar a pesta\u00f1a, index:7"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 8
+            },
+            "id": "Terminal.SwitchToTab8",
+            "keys": "ctrl+9",
+            "name": "Cambiar a pesta\u00f1a, index:8"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "alt+shift+h",
+            "name": "Mover Foco Izquierda"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 4294967295
+            },
+            "id": "User.switchToTab.9CB19EED",
+            "keys": "ctrl+0",
+            "name": "Cambiar a \u00faltima pesta\u00f1a"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "cd ..\r"
+            },
+            "id": "User.sendInput.9CC2D8C2",
+            "keys": "shift+z",
+            "name": "navigate to parent directory"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "id": "Terminal.ResizePaneUp",
+            "keys": "ctrl+shift+k",
+            "name": "Cambiar el tama\u00f1o del panel arriba"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "id": "Terminal.ResizePaneRight",
+            "keys": "ctrl+shift+l",
+            "name": "Cambiar el tama\u00f1o del panel derecha"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c",
+            "name": "Copiar texto"
+        },
+        {
+            "command": "scrollToTop",
+            "id": "Terminal.ScrollToTop",
+            "keys": "ctrl+home",
+            "name": "Desplazarse a la parte superior del historial"
+        },
+        {
+            "command": "toggleFullscreen",
+            "id": "Terminal.ToggleFullscreen",
+            "keys": "ctrl+f11",
+            "name": "full screen"
+        },
+        {
+            "command": "toggleAlwaysOnTop",
+            "id": "Terminal.ToggleAlwaysOnTop",
+            "name": "Alternar Siempre Encima"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+9"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+home"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+end"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+tab"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+j"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+a"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+left"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+right"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+pgdn"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+pgup"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "command": "paste",
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "selectAll",
+            "id": "Terminal.selectAll",
+            "keys": "ctrl+a"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.moveFocus.F747588A",
+            "keys": "alt+shift+j",
+            "name": "Mover Foco Abajo"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "id": "Terminal.OpenNewTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "command": "openTabColorPicker",
+            "id": "Terminal.openTabColorPicker",
+            "keys": "ctrl+shift+r"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "id": "Terminal.SplitPaneDown",
+            "keys": "ctrl+alt+d"
+        },
+        {
+            "command": "scrollUpPage",
+            "id": "Terminal.scrollUpPage",
+            "keys": "pgup"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab"
+            },
+            "id": "Terminal.NextTab",
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": "scrollDownPage",
+            "id": "Terminal.scrollDownPage",
+            "keys": "pgdn"
+        }
+    ],
+    "autoHideWindow": false,
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "initialCols": 120,
+    "initialRows": 30,
+    "launchMode": "maximizedFocus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "never",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "FiraCode Nerd Font Mono"
+            },
+            "opacity": 75,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -nologo -NoExit -Command winfetch",
+                "experimental.retroTerminalEffect": false,
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "scrollbarState": "visible",
+                "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "D:\\"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "icon": "D:\\Assets\\Iconos\\debian.ico",
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "S\u00edmbolo del sistema"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "commandline": "nvim.exe",
+                "guid": "{4bfc3d52-fae6-4c00-8f1a-0e8f5f6d2d1e}",
+                "hidden": false,
+                "icon": "D:\\Assets\\Iconos\\png\\nvim.png",
+                "name": "Neovim"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": true,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{8f30d09f-0d7b-5ebf-bcf8-0da78b552ef5}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "experimental.retroTerminalEffect": false,
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{d29a38e4-387b-5d9b-a0f5-4ea2d50556a2}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": [],
+    "showTabsInTitlebar": true,
+    "startOnUserLogin": true,
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
