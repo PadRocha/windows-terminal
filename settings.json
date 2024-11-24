@@ -6,12 +6,11 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
+                "action": "swapPane",
+                "direction": "down"
             },
-            "id": "Terminal.DuplicatePaneAuto",
-            "keys": "ctrl+s"
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "ctrl+alt+j"
         },
         {
             "command": 
@@ -25,17 +24,12 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "down"
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "id": "Terminal.SwapPaneLeft",
-            "keys": "ctrl+alt+j"
-        },
-        {
-            "command": "toggleFocusMode",
-            "id": "Terminal.ToggleFocusMode",
-            "keys": "f11",
-            "name": "focus mode"
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "ctrl+s"
         },
         {
             "command": 
@@ -47,14 +41,10 @@
             "keys": "ctrl+alt+k"
         },
         {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 5
-            },
-            "id": "Terminal.SwitchToTab5",
-            "keys": "ctrl+6",
-            "name": "Cambiar a pesta\u00f1a, index:5"
+            "command": "toggleFocusMode",
+            "id": "Terminal.ToggleFocusMode",
+            "keys": "f11",
+            "name": "focus mode"
         },
         {
             "command": 
@@ -64,6 +54,16 @@
             },
             "id": "Terminal.SwapPaneLeft",
             "keys": "ctrl+alt+l"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 5
+            },
+            "id": "Terminal.SwitchToTab5",
+            "keys": "ctrl+6",
+            "name": "Cambiar a pesta\u00f1a, index:5"
         },
         {
             "command": "togglePaneZoom",
@@ -120,7 +120,7 @@
                 "action": "moveFocus",
                 "direction": "up"
             },
-            "id": "User.moveFocus.6CD791B",
+            "id": "Terminal.MoveFocusUp",
             "keys": "alt+shift+k",
             "name": "Mover Foco Arriba"
         },
@@ -264,7 +264,7 @@
                 "action": "moveFocus",
                 "direction": "right"
             },
-            "id": "User.moveFocus.87C324ED",
+            "id": "Terminal.MoveFocusRight",
             "keys": "alt+shift+l",
             "name": "Mover Foco Derecha"
         },
@@ -294,7 +294,7 @@
                 "action": "moveFocus",
                 "direction": "left"
             },
-            "id": "User.moveFocus.2A0DA8E0",
+            "id": "Terminal.MoveFocusLeft",
             "keys": "alt+shift+h",
             "name": "Mover Foco Izquierda"
         },
@@ -477,7 +477,7 @@
                 "action": "moveFocus",
                 "direction": "down"
             },
-            "id": "User.moveFocus.F747588A",
+            "id": "Terminal.MoveFocusDown",
             "keys": "alt+shift+j",
             "name": "Mover Foco Abajo"
         },
